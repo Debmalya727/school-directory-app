@@ -10,7 +10,7 @@ A **full-stack web application** built with **Next.js** and a **MySQL database**
 ## Live Demo
 [Link to your live Vercel deployment will go here]
 
----
+
 
 ## ✨ Key Features
 - **🏫 Add New Schools** – A comprehensive, user-friendly form to add new schools with details like location, academic information, and facilities.
@@ -21,7 +21,7 @@ A **full-stack web application** built with **Next.js** and a **MySQL database**
 - **⚖️ Side-by-Side Comparison** – Compare up to four schools in a detailed table format.
 - **🎨 Professional UI/UX** – Modern, intuitive interface with smooth animations and a clean design.
 
----
+
 
 ## 💻 Tech Stack
 - **Framework**: Next.js (React)
@@ -31,12 +31,12 @@ A **full-stack web application** built with **Next.js** and a **MySQL database**
 - **Image Storage**: Cloudinary
 - **Deployment**: Vercel
 
----
+
 
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
-```bash
+```
 git clone https://github.com/your-username/school-directory-app.git
 cd school-directory-app
 ````
@@ -75,7 +75,7 @@ npm run dev
 
 Visit [http://localhost:3000](http://localhost:3000) to view the application.
 
----
+
 
 ## 📜 License
 
