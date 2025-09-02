@@ -3,7 +3,7 @@ Here’s a **clean and well-formatted README.md** for your GitHub repository:
 ---
 
 ````markdown
-# School Directory & Comparison App
+School Directory & Comparison App
 
 A **full-stack web application** built with **Next.js** and a **MySQL database** that allows users to search, add, and compare detailed information about various schools. This project was developed as a comprehensive web development assignment, incorporating a modern tech stack and professional features.
 
