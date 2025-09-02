@@ -81,14 +81,3 @@ Visit [http://localhost:3000](http://localhost:3000) to view the application.
 
 This project is licensed under the MIT License.
 
-```
-
----
-
-Would you like me to:  
-1. **Add screenshots / GIFs** of the app for a more professional README?  
-2. **Include a database schema diagram (Prisma)**?  
-3. **Add contribution guidelines (PRs, issues, etc.)**?  
-
-Which of these should I include? Or all three?
-```
