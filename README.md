@@ -36,7 +36,7 @@ A **full-stack web application** built with **Next.js** and a **MySQL database**
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
-```
+````
 git clone https://github.com/your-username/school-directory-app.git
 cd school-directory-app
 ````
