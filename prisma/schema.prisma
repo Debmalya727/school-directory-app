@@ -1,0 +1,44 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model School {
+  id        Int      @id @default(autoincrement())
+  name      String   @db.Text
+  address   String   @db.Text
+  city      String
+  state     String
+  contact   String
+  image     String   @db.Text
+  email     String   @unique
+  board     String
+  rating    Float
+  schoolType String
+  
+  // --- All fields updated with defaults ---
+  admissionStatus   String   @default("Open")
+  schoolLevel       String   @default("Senior Secondary")
+  averageMonthlyFees String  @default("N/A")
+  hostelFacility    Boolean  @default(false)
+  transport         Boolean  @default(false)
+  acClasses         Boolean  @default(false)
+  indoorSports      Boolean  @default(false)
+  outdoorSports     Boolean  @default(false)
+  swimmingPool      Boolean  @default(false)
+  musicRoom         Boolean  @default(false)
+  danceRoom         Boolean  @default(false)
+  gymRoom           Boolean  @default(false)
+  healthCheckup     Boolean  @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
