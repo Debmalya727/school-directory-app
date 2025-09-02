@@ -2,7 +2,7 @@ Your issue comes from **missing Markdown code block closures** and improper inde
 
 ### **Corrected README.md**
 
-````markdown
+````
 # School Directory & Comparison App
 
 A **full-stack web application** built with **Next.js** and a **MySQL database** that allows users to search, add, and compare detailed information about various schools. This project was developed as a comprehensive web development assignment, incorporating a modern tech stack and professional features.
@@ -36,6 +36,7 @@ A **full-stack web application** built with **Next.js** and a **MySQL database**
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
+````
 ````
 git clone https://github.com/your-username/school-directory-app.git
 cd school-directory-app
