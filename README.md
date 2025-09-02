@@ -4,7 +4,7 @@ A full-stack web application built with **Next.js** and a **MySQL** database tha
 
 ### **Live Demo**
 
-**[Link to your live Vercel deployment will go here]**
+**https://school-directory-app.vercel.app/**
 
 ---
 
