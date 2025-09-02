@@ -43,7 +43,7 @@ cd school-directory-app
 
 ### 2. Install dependencies
 
-```bash
+```
 npm install
 ```
 
@@ -63,7 +63,7 @@ CLOUDINARY_URL="cloudinary://API_KEY:API_SECRET@CLOUD_NAME"
 
 ### 4. Sync the database schema
 
-```bash
+```
 npx prisma db push
 ```
 
