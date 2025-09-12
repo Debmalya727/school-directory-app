@@ -1,40 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# School Directory & Comparison App
 
-## Getting Started
+A full-stack web application built with **Next.js** and a **MySQL** database that allows users to search, add, and compare detailed information about various schools. This project was developed as a comprehensive web development assignment, incorporating a modern tech stack and professional features.
 
-First, run the development server:
+### **Live Demo**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**https://school-directory-app.vercel.app/**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### ✨ Key Features
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+* **🏫 Add New Schools:** A comprehensive, user-friendly form to add new schools with details like location, academic information, and available facilities.
+* **🖼️ Cloud Image Uploads:** Integrated with Cloudinary for permanent cloud-based storage and fast delivery of images.
+* **🔍 Advanced Search & Filtering:** A dynamic dashboard to instantly search by name and filter by city, board, school type, and hostel availability.
+* **📇 Responsive Card Layout:** A clean, responsive grid view for schools that works well on desktop and mobile.
+* **📄 Detailed School Pages:** Dedicated, dynamically generated pages for each school.
+* **⚖️ Side-by-Side Comparison:** Compare up to four schools in a detailed table format.
+* **🎨 Professional UI/UX:** A modern, intuitive interface with smooth animations and a clean design.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 💻 Tech Stack
 
-## Learn More
+* **Framework:** [Next.js](https://nextjs.org/) (React)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Database ORM:** [Prisma](https://www.prisma.io/)
+* **Database:** [TiDB Cloud](https://tidbcloud.com/) (Serverless MySQL)
+* **Image Storage:** [Cloudinary](https://cloudinary.com/)
+* **Deployment:** [Vercel](https://vercel.com/)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+### 🚀 Getting Started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To get a local copy up and running, follow these simple steps.
 
-## Deploy on Vercel
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/school-directory-app.git](https://github.com/your-username/school-directory-app.git)
+    cd school-directory-app
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+3.  **Set up environment variables:**
+    Create a file named `.env` in the root of the project and add the following variables. You will need your own credentials for a MySQL database (like TiDB Cloud) and a Cloudinary account.
+    ```env
+    # Your cloud MySQL connection string
+    DATABASE_URL="mysql://USER:PASSWORD@HOST:PORT/DATABASE"
+    
+    # Your Cloudinary connection string
+    CLOUDINARY_URL="cloudinary://API_KEY:API_SECRET@CLOUD_NAME"
+    ```
+
+4.  **Sync the database schema:**
+    This command will create the `School` table in your database based on the Prisma schema.
+    ```bash
+    npx prisma db push
+    ```
+
+5.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+---
+
+### 👤 Author
+
+* **Debmalya Panda**
