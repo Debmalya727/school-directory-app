@@ -42,3 +42,18 @@ model School {
   updatedAt DateTime @updatedAt
 }
 
+model User {
+  id    String @id @default(cuid())
+  email String @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model VerificationToken {
+  id        String   @id @default(cuid())
+  email     String
+  token     String   @unique
+  expires   DateTime
+
+  @@unique([email, token])
+}

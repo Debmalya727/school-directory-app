@@ -11,18 +11,26 @@
   "dependencies": {
     "@prisma/client": "^6.15.0",
     "cloudinary": "^2.7.0",
+    "cookie": "^1.0.2",
     "formidable": "^3.5.4",
+    "jose": "^6.1.0",
+    "jsonwebtoken": "^9.0.2",
     "next": "15.5.2",
+    "nodemailer": "^7.0.6",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "react-hook-form": "^7.62.0"
+    "react-hook-form": "^7.62.0",
+    "swr": "^2.3.6"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
+    "@types/node": "^24.3.1",
+    "@types/react": "^19.1.12",
     "eslint": "^9",
     "eslint-config-next": "15.5.2",
     "prisma": "^6.15.0",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4",
+    "typescript": "^5.9.2"
   }
 }
